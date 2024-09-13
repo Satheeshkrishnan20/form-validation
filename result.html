@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="result.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="parent">
+      <h1>My Profile</h1>
+      <div class="edit">
+        <h4>User Name :</h4>
+        <h3 id="user-name"></h3>
+      </div>
+      <div class="edit">
+        <h4>User Email :</h4>
+
+        <h3 id="user-email"></h3>
+      </div>
+      <div class="edit">
+        <h4>User Number :</h4>
+
+        <h3 id="user-number"></h3>
+      </div>
+
+      <div class="edit">
+        <h4>User Country :</h4>
+
+        <h3 id="user-country"></h3>
+      </div>
+      <div class="edit">
+        <h4>User Gender :</h4>
+
+        <h3 id="user-gender"></h3>
+      </div>
+
+      <div class="edit">
+        <h4>User Feedback :</h4>
+        <h3 id="user-feedback"></h3>
+      </div>
+      <div class="btn">
+        <button>Home</button>
+      </div>
+    </div>
+
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      h3 {
+        color: rgb(204, 2, 2);
+        text-align: center;
+      }
+      .parent {
+        height: auto;
+        width: 450px;
+        background-color: rgb(147, 147, 214);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px auto;
+      }
+      .edit {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+      .parent h1 {
+        text-align: center;
+        color: aliceblue;
+      }
+      button {
+        all: unset;
+        padding: 6px 10px;
+        border: 2px solid rgb(206, 204, 201);
+        border-radius: 10px;
+      }
+      button:hover {
+        background-color: rgb(89, 89, 165);
+        color: antiquewhite;
+        transition: .18s;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    </style>
+  </body>
+</html>

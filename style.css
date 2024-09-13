@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(91, 151, 230),
+    rgb(125, 116, 180),
+    rgb(127, 108, 172)
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: small;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.flex label {
+  font-weight: 400;
+}
+.flex .err {
+  margin: 5px 0px 0px 5px;
+  color: rgb(173, 64, 64);
+  font-weight: 400;
+}
+#form {
+  height: auto;
+  width: 350px;
+  margin: 10px auto;
+  border: 2px solid rgba(142, 138, 148, 0.329);
+  box-shadow: 2px 2px 30px rgb(43, 42, 42);
+  padding: 15px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(
+    to top,
+    rgba(122, 122, 179, 0.164),
+    rgba(139, 139, 173, 0.37),
+    rgba(121, 121, 255, 0.329)
+  );
+  
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+.btn button {
+  all: unset;
+  padding: 8px 12px;
+  border: 2px solid rgb(212, 208, 208);
+  border-radius: 10px;
+  background-color: rgba(168, 155, 155, 0.274);
+  font-weight: 500;
+  color: azure;
+}
+button:hover {
+  background-color: rgba(88, 82, 184, 0.658);
+}
+input {
+  border-radius: 2px;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+}
+select {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+textarea {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.flex1 {
+  display: flex;
+  gap: 30px;
+  margin: 6px 5%;
+}
+input[type="radio"] {
+  transform: scale(130%);
+}
+input:focus{
+  outline: none;
+}
